@@ -2,9 +2,7 @@
 
 ## 📌 Overview
 
-Automatically generating clinically accurate diagnostic reports from volumetric CT images remains challenging because CT findings are often localized to specific anatomical regions and strongly associated with particular pathological states. Existing medical report generation methods usually rely on global visual representations or retrieve historical cases only according to visual similarity, which may introduce clinically irrelevant references when visually similar regions correspond to different diseases.
-
-**Pathology-Aware Regional Retrieval Network (PRR-Net)** addresses these limitations by jointly modeling anatomical regions, pathology semantics, and region-level retrieval knowledge for CT report generation. The framework first predicts pathology states from the CT volume and injects the predicted pathology semantics into both global and regional visual representations. It then retrieves anatomically and pathologically relevant reference descriptions from a **Regional Knowledge Bank (RKB)** and feeds the enhanced visual tokens together with retrieved regional references into a large language model to generate structured CT reports.
+Automatically generating clinically accurate diagnostic reports from volumetric CT images remains challenging because CT findings are often localized to specific anatomical regions and strongly associated with particular pathological states, while existing medical report generation methods usually rely on global visual representations or retrieve historical cases only according to visual similarity, which may introduce clinically irrelevant references when visually similar regions correspond to different diseases. To address these limitations, **Pathology-Aware Regional Retrieval Network (PRR-Net)** jointly models anatomical regions, pathology semantics, and region-level retrieval knowledge for CT report generation. 
 
 ## Key Contributions
 - **Pathology-aware Visual Enhancement (PVE).**  
