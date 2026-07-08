@@ -14,13 +14,18 @@ Automatically generating clinically accurate diagnostic reports from volumetric 
 - **Regional Retrieval-augmented Module (RRM).**  
   We design a two-stage retrieval strategy that first retrieves visually similar regional candidates and then refines them according to pathology consistency, helping the model select clinically relevant regional references.
 
-
+<p align="center">
+  <img src="assets/Overview.png" alt="Overview of the proposed framework." width="85%">
+</p>
+<p align="center">
+  <b>Fig. 1:</b> Overview of the proposed framework.
+</p>
 
 <p align="center">
   <img src="assets/pathology_extraction_prompt.png" alt="Prompt used for pathology extraction from CT reports" width="85%">
 </p>
 <p align="center">
-  <b>Fig. 1:</b> Prompt used for pathology extraction from CT reports.
+  <b>Fig. 2:</b> Prompt used for pathology extraction from CT reports.
 </p>
 
 
@@ -36,5 +41,5 @@ Automatically generating clinically accurate diagnostic reports from volumetric 
   <img src="assets/regional_report_generation_example.png" alt="A representative example of regional report generation" width="95%">
 </p>
 <p align="center">
-  <b>Fig. 2:</b> A representative example of regional report generation. Texts with different colors correspond to the anatomical regions marked with the same colors in the segmented CT volume.
+  <b>Fig. 3:</b> A representative example of regional report generation. Texts with different colors correspond to the anatomical regions marked with the same colors in the segmented CT volume.
 </p>
