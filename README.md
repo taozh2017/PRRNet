@@ -18,7 +18,7 @@ Automatically generating clinically accurate diagnostic reports from volumetric 
   <img src="assets/Overview.png" alt="Overview of the proposed framework." width="85%">
 </p>
 <p align="center">
-  <b>Fig. 1:</b> Overview of the proposed framework.
+  <b>Fig. 1:</b> Overview of the proposed framework. The input CT volume is first encoded to obtain global and regional visual representations. The global visual features are further fed into a pathology classification branch to predict pathology state distributions, which are then used to enhance both global and regional visual representations. Subsequently, anatomically and pathologically relevant reference texts are retrieved from the Regional Knowledge Bank. Finally, the enhanced visual tokens and retrieved references are jointly fed into the LLM to generate structured CT reports.
 </p>
 
 <p align="center">
